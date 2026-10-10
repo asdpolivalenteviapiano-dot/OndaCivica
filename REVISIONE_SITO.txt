@@ -1,0 +1,15 @@
+REVISIONE EDITORIALE Onda Civica
+
+Interventi effettuati:
+- distinta la gerarchia tra Laboratori, Progetti strategici e Progetti operativi;
+- riordinata integralmente la pagina Progetti per laboratorio;
+- eliminata la percezione di duplicazione tra progetti-ombrello e sotto-progetti;
+- uniformati gli orizzonti temporali già definiti;
+- mantenuti i nomi scelti nelle schede esistenti;
+- chiarito che le schede sono proposte in elaborazione e non promesse definitive;
+- verificati i collegamenti interni.
+
+Gerarchia editoriale:
+Laboratorio -> Progetto strategico -> eventuali progetti operativi collegati.
+
+Collegamenti mancanti rilevati: 0
