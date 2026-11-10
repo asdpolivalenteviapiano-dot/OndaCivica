@@ -1,0 +1,21 @@
+ONDA CIVICA — VERIFICA TECNICA ACCESSIBILITÀ (pre-audit statico)
+
+Obiettivo: WCAG livello AA / impostazione coerente con i criteri tecnici comunemente adottati per i siti PA.
+Nota: questo controllo statico non equivale a una certificazione di conformità. Restano necessari test manuali con tastiera, screen reader e zoom/reflow.
+
+Pagine HTML controllate: 29
+Problemi statici rilevati: 0
+Collegamenti interni mancanti: 0
+
+Interventi inclusi:
+- skip link al contenuto principale;
+- landmark e navigazione etichettata;
+- menu mobile con aria-expanded, aria-controls, ESC e gestione chiusura;
+- focus visibile;
+- target interattivi minimi;
+- rispetto prefers-reduced-motion;
+- pannello accessibilità con testo grande, spaziatura, contrasto e riduzione movimento;
+- preferenze persistenti localmente;
+- pagina Accessibilità e canale di segnalazione verso Contatti;
+- documenti principali disponibili anche in HTML semantico;
+- verifica alt delle immagini e presenza H1.

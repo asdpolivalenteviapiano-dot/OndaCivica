@@ -1,0 +1,7 @@
+ONDA CIVICA — SITO ACCESSIBILE AA (versione di lavoro avanzata)
+
+Questa cartella deriva dal pacchetto finale del sito ed è stata adeguata con miglioramenti strutturali e funzionali per l’accessibilità.
+
+Per la pubblicazione, caricare l’intero contenuto mantenendo invariata la struttura delle cartelle.
+
+IMPORTANTE: la dicitura “AA” esprime l’obiettivo tecnico del progetto. Una dichiarazione formale di piena conformità richiede un audit manuale completo con browser, tastiera, screen reader, zoom e reflow.

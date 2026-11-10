@@ -1,0 +1,47 @@
+
+/* Accessibilità Onda Civica — enhancement layer */
+:root{--a11y-focus:#ffbf47;--a11y-panel:#ffffff;--a11y-text:#12213a}
+html{scroll-behavior:smooth;text-size-adjust:100%;-webkit-text-size-adjust:100%}
+body{line-height:1.6}
+.skip-link{position:fixed;left:1rem;top:-6rem;z-index:10000;padding:.8rem 1rem;background:#fff;color:#001f3f;border:3px solid #001f3f;border-radius:.5rem;font-weight:800;text-decoration:none}
+.skip-link:focus{top:1rem}
+:focus-visible{outline:3px solid var(--a11y-focus)!important;outline-offset:4px!important}
+a,button,input,select,textarea{touch-action:manipulation}
+button,.btn,.join,.links a{min-height:44px;min-width:44px}
+button{font:inherit}
+img{max-width:100%;height:auto}
+main{outline:0}
+.sr-only{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
+.a11y-launcher{position:fixed;right:1rem;bottom:1rem;z-index:9998;border:0;border-radius:999px;background:#082f57;color:#fff;padding:.78rem 1rem;font-weight:800;box-shadow:0 8px 24px rgba(0,0,0,.22);cursor:pointer}
+.a11y-panel{position:fixed;right:1rem;bottom:4.8rem;z-index:9999;width:min(350px,calc(100vw - 2rem));background:var(--a11y-panel);color:var(--a11y-text);border:2px solid #082f57;border-radius:1rem;box-shadow:0 12px 36px rgba(0,0,0,.25);padding:1rem}
+.a11y-panel[hidden]{display:none}
+.a11y-panel h2{font-size:1.15rem;margin:0 0 .7rem;color:#082f57}
+.a11y-controls{display:grid;grid-template-columns:1fr 1fr;gap:.5rem}
+.a11y-controls button{border:2px solid #1b5f8f;background:#fff;color:#082f57;border-radius:.6rem;padding:.65rem .7rem;font-weight:750;cursor:pointer;text-align:left}
+.a11y-controls button[aria-pressed="true"]{background:#082f57;color:#fff}
+.a11y-reset{grid-column:1/-1!important;text-align:center!important}
+.a11y-help{font-size:.9rem;margin:.75rem 0 0}
+.a11y-help a{font-weight:750;color:#064f83}
+html.a11y-large{font-size:118%}
+html.a11y-spacing body{line-height:1.9;letter-spacing:.04em;word-spacing:.10em}
+html.a11y-spacing p,html.a11y-spacing li{margin-bottom:1.15em}
+html.a11y-high-contrast body{background:#000!important;color:#fff!important}
+html.a11y-high-contrast header,html.a11y-high-contrast section,html.a11y-high-contrast footer,html.a11y-high-contrast .card,html.a11y-high-contrast .doc,html.a11y-high-contrast .project-group,html.a11y-high-contrast .a11y-panel{background:#000!important;color:#fff!important;border-color:#fff!important;box-shadow:none!important}
+html.a11y-high-contrast h1,html.a11y-high-contrast h2,html.a11y-high-contrast h3,html.a11y-high-contrast p,html.a11y-high-contrast span,html.a11y-high-contrast small,html.a11y-high-contrast .lead,html.a11y-high-contrast .kicker{color:#fff!important}
+html.a11y-high-contrast a{color:#ffff00!important;text-decoration:underline!important;text-decoration-thickness:2px!important}
+html.a11y-high-contrast button,html.a11y-high-contrast .btn,html.a11y-high-contrast .join{background:#000!important;color:#ffff00!important;border:2px solid #ffff00!important}
+html.a11y-high-contrast :focus-visible{outline-color:#00ffff!important}
+html.a11y-reduce-motion *,html.a11y-reduce-motion *::before,html.a11y-reduce-motion *::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important;scroll-behavior:auto!important}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important}}
+@media (forced-colors:active){:focus-visible{outline:3px solid CanvasText!important}.a11y-panel,.a11y-launcher{forced-color-adjust:auto}}
+@media (max-width:760px){.a11y-launcher{right:.65rem;bottom:.65rem}.a11y-panel{right:.65rem;bottom:4.4rem;width:calc(100vw - 1.3rem)}.a11y-controls{grid-template-columns:1fr}}
+
+/* Accessible document pages */
+.document-page{max-width:960px;margin:0 auto;padding:3rem 1.25rem 5rem}
+.document-page .eyebrow{font-weight:800;text-transform:uppercase;letter-spacing:.08em;color:#165d8e}
+.document-page h1{font-size:clamp(2rem,5vw,3.2rem);line-height:1.1;color:#082f57;margin:.4rem 0 1.5rem}
+.document-page h2{margin-top:2rem;color:#082f57;font-size:1.35rem}
+.document-page p,.document-page li{max-width:78ch}
+.document-actions{display:flex;gap:.75rem;flex-wrap:wrap;margin:1.5rem 0 2rem}
+.document-actions a{display:inline-flex;align-items:center;min-height:44px;padding:.65rem 1rem;border-radius:.55rem;background:#082f57;color:#fff;font-weight:800;text-decoration:none}
+.access-note{border-left:5px solid #ef8b2c;padding:1rem 1.2rem;background:#fff6eb;margin:1.5rem 0}
