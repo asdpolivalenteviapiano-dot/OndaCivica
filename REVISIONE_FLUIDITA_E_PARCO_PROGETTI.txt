@@ -1,0 +1,15 @@
+REVISIONE DELLA STRUTTURA EDITORIALE
+
+Nuova gerarchia:
+LABORATORIO
+→ OBIETTIVO STRATEGICO
+→ OBIETTIVI / TRAGUARDI CONCRETI
+→ PARCO PROGETTI
+
+Criteri:
+- linguaggio più diretto;
+- meno formule astratte e ridondanti;
+- ogni obiettivo strategico deve spiegare chiaramente cosa si vuole ottenere;
+- ogni progetto deve essere autonomo ma collegato a uno o più obiettivi;
+- paragrafi giustificati su desktop;
+- su schermi piccoli il testo torna allineato a sinistra per migliorare la leggibilità e l'accessibilità.
