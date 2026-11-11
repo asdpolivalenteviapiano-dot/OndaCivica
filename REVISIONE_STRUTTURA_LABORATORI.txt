@@ -1,0 +1,9 @@
+Applicati gli 8 punti concordati:
+- nuovo testo homepage;
+- IL PARCO PROGETTI uniformato;
+- rimossi punti finali dai titoli;
+- voce Progetti rimossa dal menu;
+- metodo spostato nella pagina dei Laboratori;
+- 11 laboratori rinominati in maiuscolo;
+- eliminati i richiami esterni ai progetti operativi;
+- homepage resa più identitaria e incisiva.
